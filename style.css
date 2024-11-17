@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'gilroy';
+    src: url("./gilroy/Gilroy-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+}
+
+#nav>h1 {
+    font-size: 1rem;
+}
+
+#nav-part2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-part2 img {
+    width: 120px;
+}
+
+#nav-part2 .line {
+    width: 70px;
+    height: 2px;
+    background-color: red;
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+    background-color: black;
+}
+
+#left {
+    width: 36%;
+    height: 100%;
+    padding: 12rem 5rem 0;
+    /* background-color: lightgreen; */
+}
+
+#left>h1 {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+#left span {
+    color: red;
+}
+
+#left p {
+    width: 90%;
+    margin: 2rem 0;
+    text-align: justify;
+    color: white;
+}
+
+#left button {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10rem;
+}
+
+#left button i {
+    margin-right: 0.5rem;
+}
+
+#center {
+    position: relative;
+    width: 28%;
+    height: 100%;
+    padding: 5rem 0 3rem;
+    /* background-color: rgb(0, 255, 8); */
+}
+
+#center img {
+    height: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#center-bg {
+    width: 100%;
+    height: 95%;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    color: white;
+    /* background-color: indigo; */
+    background-image: url('https://img.freepik.com/free-vector/water-droplets-red-background_107791-2438.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1719273600&semt=ais_user');
+    filter: brightness(0.7);
+}
+
+#right {
+    width: 36%;
+    height: 100%;
+    padding: 15rem 5rem 0;
+    /* background-color: orange; */
+}
+
+#elem1, #elem2 {
+    /* background-color: red; */
+    border-bottom: 1px solid white;
+    padding: 0.7rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#elem1 h2, #elem2 h2 {
+    color: white;
+    font-size: 20px;  
+    opacity: 0.6;  
+}
+
+#elem1 i, #elem2 i {
+    color: white;   
+    font-size: 2rem;
+    opacity: 0.6;
+}
+
+#elem3 h2 {
+    color: white;
+    font-size: 20px;
+}
+
+#elem3 p {
+    color: white;
+    opacity: 0.6;
+}
+
+#elem3 {
+    padding: 0.7rem 0;
+}
+
+#elem3 p {
+    color: white;
+    width: 90%;
+    padding: 0.7rem 0; 
+    text-align: justify;
+}
